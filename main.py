@@ -6,9 +6,9 @@ import asyncio
 import discord
 from discord.ext import commands
 from numpy.random import choice
-TOKEN = "OTYzMzMxNTY2NjYxMTUyODM4.YlUibw.deuoOvf3QjHwxhpB82rCD73hWuE"
+from dotenv import dotenv_values
 bot = commands.Bot(command_prefix='$', intents = discord.Intents().all())
-
+config = dotenv_values('.env')
 db = {"Bonk Bot": 9000}
 
 try:
@@ -108,5 +108,4 @@ def save_db(db):
   a_file.close()
   print("Saved Dictionary")
 
-  
-bot.run(TOKEN)
+bot.run(config['DISCORD_TOKEN'])
