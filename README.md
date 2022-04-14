@@ -22,4 +22,4 @@ Discord Bot that plays bonk sounds via **$bonk** command
 * Open Invite to Discord to Public (Need database that will allow the bot to work well in >1 Discord Server)
 
 ### Licence
-[MIT Licence](LICENCE)
+[MIT Licence](https://github.com/yashabnarang/Bonk-Bot/blob/master/LICENSE)
