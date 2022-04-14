@@ -14,10 +14,10 @@
 </p>
 </h1>
 
-## Project Description
+## Project Description 💥🔨💢
 Discord Bot that plays bonk sounds via **$bonk** command
 
-## Requirements
+## Requirements 💥🔨💢
 * Discord.py
 * PyNaCl
 * FFMPEG
@@ -27,7 +27,7 @@ Discord Bot that plays bonk sounds via **$bonk** command
 * Dotenv
 
 
-## Goals
+## Goals 💥🔨💢
 * Mega Bonk Voted on with Reactions
 * Rating system to display top bonkers
 * Open Invite to Discord to Public (Need database that will allow the bot to work well in >1 Discord Server)
