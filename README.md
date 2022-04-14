@@ -9,7 +9,9 @@
     <a  href="https://www.linkedin.com/in/brandonlanderos/">
         <img  alt="Brandon Landeros"  src="https://img.shields.io/badge/-Brandon%20Landeros-0077b5?style=flat&logo=Linkedin&logoColor=white" />
     </a>
-    <img  alt="License"  src="https://img.shields.io/badge/license-MIT-A31F34">
+    <a href="https://github.com/yashabnarang/Bonk-Bot/blob/master/LICENSE">
+      <img  alt="License"  src="https://img.shields.io/badge/license-MIT-A31F34">
+    </a>
 </p>
 ## Project Description
 Discord Bot that plays bonk sounds via **$bonk** command
