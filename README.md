@@ -21,4 +21,5 @@ Discord Bot that plays bonk sounds via **$bonk** command
 * Rating system to display top bonkers
 * Open Invite to Discord to Public (Need database that will allow the bot to work well in >1 Discord Server)
 
-## Licence
+### Licence
+[MIT Licence](LICENCE)
