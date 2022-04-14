@@ -2,4 +2,21 @@
   <img align="center" src="https://repository-images.githubusercontent.com/481693647/30e3dbdf-e2ab-4288-b7c3-7110083fe296" alt="Bonk Bot Logo Missing ):" style="width:100%;height:100%"/>
   <br><br><strong>Bonk Bot</strong>
 </h1>
-<p>Discord Bot that plays bonk sounds via **$bonk** command</p>
+
+## Project Description
+Discord Bot that plays bonk sounds via **$bonk** command
+
+## Requirements
+* Discord.py
+* PyNaCl
+* FFMPEG
+* Pickle
+* Asyncio
+* Numpy
+* Dotenv
+
+
+## Goals
+* Mega Bonk Voted on with Reactions
+* Rating system to display top bonkers
+* Open Invite to Discord to Public (Need database that will allow the bot to work well in >1 Discord Server)
