@@ -1,18 +1,20 @@
-<h1 align="center" style="display: block; font-size: 2.5em; font-weight: bold; margin-block-start: 1em; margin-block-end: 1em;">
-  <img align="center" src="https://repository-images.githubusercontent.com/481693647/30e3dbdf-e2ab-4288-b7c3-7110083fe296" alt="Bonk Bot Logo Missing ):" style="width:100%;height:100%"/>
-  <br><br><strong>Bonk Bot</strong>
-</h1>
-<p  align="center">
-    <a  href="https://www.linkedin.com/in/yashab/">
-        <img  alt="Yashab Narang"  src="https://img.shields.io/badge/-Yashab%20Narang-0077b5?style=flat&logo=Linkedin&logoColor=white" />
-    </a>
-    <a  href="https://www.linkedin.com/in/brandonlanderos/">
-        <img  alt="Brandon Landeros"  src="https://img.shields.io/badge/-Brandon%20Landeros-0077b5?style=flat&logo=Linkedin&logoColor=white" />
-    </a>
-    <a href="https://github.com/yashabnarang/Bonk-Bot/blob/master/LICENSE">
-      <img  alt="License"  src="https://img.shields.io/badge/license-MIT-A31F34">
-    </a>
-</p>
+<h1 align="center" style="display: block; font-size: 2.5em; font-weight: bold; margin-block-start: 1em; margin-block-end: 1em;">  
+  <img align="center" src="https://repository-images.githubusercontent.com/481693647/30e3dbdf-e2ab-4288-b7c3-7110083fe296" alt="Bonk Bot Logo Missing ):" style="width:100%;height:100%"/>  
+  <br><br><strong>Bonk Bot</strong>  
+</h1>  
+  
+<p  align="center">  
+    <a  href="https://www.linkedin.com/in/yashab/">  
+        <img  alt="Yashab Narang"  src="https://img.shields.io/badge/-Yashab%20Narang-0077b5?style=flat&logo=Linkedin&logoColor=white" />  
+    </a>  
+    <a  href="https://www.linkedin.com/in/brandonlanderos/">  
+        <img  alt="Brandon Landeros"  src="https://img.shields.io/badge/-Brandon%20Landeros-0077b5?style=flat&logo=Linkedin&logoColor=white" />  
+    </a>  
+    <a href="https://github.com/yashabnarang/Bonk-Bot/blob/master/LICENSE">  
+      <img  alt="License"  src="https://img.shields.io/badge/license-MIT-A31F34">  
+    </a>  
+</p>  
+
 ## Project Description
 Discord Bot that plays bonk sounds via **$bonk** command
 
