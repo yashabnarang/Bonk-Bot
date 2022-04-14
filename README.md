@@ -10,9 +10,11 @@
     </a>  
     <a href="https://github.com/yashabnarang/Bonk-Bot/blob/master/LICENSE">  
       <img  alt="License"  src="https://img.shields.io/badge/license-MIT-A31F34">  
-    </a>  
+    </a>
 </p>
-</h1>  
+</h1>
+
+## Project Description
 Discord Bot that plays bonk sounds via **$bonk** command
 
 ## Requirements
