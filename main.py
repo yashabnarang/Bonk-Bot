@@ -17,7 +17,7 @@ try:
 except Exception:
     pass
 
-bonkList = ['bonk.mp3','bonk_s1.mp3','bonk_s2.mp3','bonk_s3.mp3']
+bonkList = ['bonk.mp3','bonk_s1.mp3','bonk_s2.mp3','bonk_s3.mp3','bonk_s4.mp3', 'Seven pages of bonk.mp3']
 
 @bot.event
 async def on_ready():
@@ -27,8 +27,7 @@ async def on_ready():
 @bot.command(name='bonk', help="Mention somebody to bonk them!")
 async def bonk(ctx):
   # bot not actively in call and author is in vc
-  source = await discord.FFmpegOpusAudio.from_probe("bonk_sounds/"+choice(
-  bonkList, p=[0.97, 0.01, 0.01, 0.01]))
+  source = await discord.FFmpegOpusAudio.from_probe("bonk_sounds/"+choice(bonkList, p=[0.96, 0.01, 0.01, 0.01, 0.005, 0.005]))
   if ctx.voice_client is None and ctx.author.voice is not None:
     voice_channel = ctx.author.voice.channel
     if voice_channel != None:
@@ -58,8 +57,11 @@ async def get_bonk_count(ctx):
     else:
       await ctx.send("This user hasn't been bonked.")
       print(user_mentioned.name, db[user_mentioned.name])
+  if not ctx.message.mentions:
+    await ctx.send("B O N K ! U WAnT tHe BoNK couNT OF WhO?!")
 
 # Remove 1 bonk from count
+# *Admin Only Command*
 @bot.command(name='removebonk', help= 'Mention to remove one bonk')
 async def remove_bonk(ctx):
   if ctx.message.author.guild_permissions.administrator:
